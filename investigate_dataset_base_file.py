@@ -8,7 +8,7 @@ from pprint import pprint
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 nltk.download('stopwords')
-folder_path = os.path.expanduser('~/Downloads/dataverse_files/UN General Debate Corpus/TXT/Session 77 - 2022')
+folder_path = os.path.expanduser('~/Downloads/UN_data/TXT')
 processed_speeches = []
 stop_words = set(stopwords.words('english'))
 
@@ -20,7 +20,7 @@ country_sentiments = {}
 
 for root, dirs, files in os.walk(folder_path):
     for file in files:
-        if file.endswith('.txt'):
+        if file.endswith('.txt') and not file.startswith("._"):
             # Assuming country name is the first part of the file name, e.g., 'COM_77_2022.txt'
             country_name = file.split('_')[0]
 
