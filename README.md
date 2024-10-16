@@ -1,4 +1,4 @@
-# FDS Assignments Repository
+# Fundamentals od Data Science Assignments Repository
 Repository to collaborate on the Fundamentals of DS Assignments with group A4 at UvA.
 
 - New branch for each assignment
@@ -7,6 +7,6 @@ Repository to collaborate on the Fundamentals of DS Assignments with group A4 at
 https://github.com/abhinavagnihotry/fds_assignments/tree/assignment_1
 
 ## Assignment 2:
-<To be updated>
+https://github.com/abhinavagnihotry/fds_assignments/tree/assignment_2
 
   
